@@ -6,17 +6,21 @@ This project implements a 4-bit Arithmetic Logic Unit (ALU) using Verilog HDL. T
 The design supports arithmetic, logical, and shift operations along with status flag generation commonly used in processor architectures.
 
 **Features**
+
 **Arithmetic Operations**
 - Addition (A + B)
 - Subtraction (A - B) using Two's Complement arithmetic
+  
 **Logical Operations**
 - AND
 - OR
 - XOR
 - NOT
+  
 **Shift Operations**
 - Logical Left Shift
 - Logical Right Shift
+  
 **Status Flags**
 - Zero (Z) – Set when result equals zero
 - Carry (C) – Indicates carry-out from arithmetic operations
@@ -95,7 +99,7 @@ Waveform analysis was performed to validate functionality for all supported opco
 - EDA Playground / ModelSim
 - Quartus Prime
 - GTKWave
-- 
+  
 **Future Improvements**
 - Parameterized ALU width (8-bit, 16-bit, 32-bit)
 - Barrel Shifter implementation
@@ -105,5 +109,7 @@ Waveform analysis was performed to validate functionality for all supported opco
 - Pipelined ALU design
 
 **Author**
+
 Niki Majithiya
+
 Verilog HDL | Digital Design | VLSI Enthusiast
