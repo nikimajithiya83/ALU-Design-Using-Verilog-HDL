@@ -23,15 +23,17 @@ Carry (C) – Indicates carry-out from arithmetic operations
 Negative (N) – Indicates negative result (MSB = 1)
 Overflow (V) – Indicates signed arithmetic overflow
 ALU Opcode Table
-Opcode	Operation
-000	Addition
-001	Subtraction
-010	AND
-011	OR
-100	XOR
-101	NOT A
-110	Shift Left
-111	Shift Right
+|Opcode | Operation |
+|-------|-----------|
+|000	| Addition |
+|001	| Subtraction |
+|010	| AND |
+|011	| OR |
+|100	| XOR |
+|101	| NOT A |
+|110	| Shift Left |
+|111	| Shift Right |
+
 Project Hierarchy
 ALU
 │
