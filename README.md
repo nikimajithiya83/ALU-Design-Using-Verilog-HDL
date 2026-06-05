@@ -5,6 +5,9 @@ This project implements a 4-bit Arithmetic Logic Unit (ALU) using Verilog HDL. T
 
 The design supports arithmetic, logical, and shift operations along with status flag generation commonly used in processor architectures.
 
+**Block Diagram**
+
+
 **Features**
 
 **Arithmetic Operations**
@@ -40,7 +43,7 @@ The design supports arithmetic, logical, and shift operations along with status 
 |111	| Shift Right |
 
 **Project Hierarchy**
-```text
+```mermaid
 ALU
 │
 ├── Full Adder
