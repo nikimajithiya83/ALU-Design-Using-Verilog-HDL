@@ -43,8 +43,7 @@ The design supports arithmetic, logical, and shift operations along with status 
 |111	| Shift Right |
 
 **Project Hierarchy**
-```mermaid
-graph TD
+```text
 ALU
 │
 ├── Full Adder
